@@ -1,0 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=Robto+Slab|Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;   
+$oswald: 'Oswald', sans-serif;
+
+// Styles
+body {
+  font-family: $oswald;
+  font-weight: normal;
+  color: white;
+  background: #4096ee; /* Old browsers */
+  background: -moz-linear-gradient(top,  #4096ee 0%, #4096ee 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #4096ee 0%,#4096ee 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #4096ee 0%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+
+}
+
+.soon {
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.signature {
+  font-family: $roboto-slab;
+}
