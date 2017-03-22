@@ -5,6 +5,8 @@ $(document).ready(function(){
             $("#great-title").append(data.name);
             $("#logo").append('<img id="logo-image" src="'+ data.avatar_url +'" height="128px" width="128px">');
             $('#bio').append('<span class="black-text">'+ data.bio +'</span');
+      });
+      
 });
 
 
